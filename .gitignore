@@ -1,0 +1,14 @@
+# .gitignore
+
+# Pythonキャッシュ
+__pycache__/
+*.pyc
+
+# データファイル（GitHubにはコードだけを上げ、データはローカルで管理するのが基本）
+data/
+*.csv
+*.xlsx
+
+# 環境変数（APIキーなどを書くファイル。今はなくても将来のために）
+.env
+.DS_Store
